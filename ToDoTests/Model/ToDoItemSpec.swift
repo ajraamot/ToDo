@@ -19,7 +19,7 @@ class ToDoItemSpec: QuickSpec {
                 expect(item.title).to(equal("Foo"))
             }
             
-            it("takes title and descrition") {
+            it("takes title and description") {
                 let item = ToDoItem(title: "Foo", itemDescription: "Bar")
                 expect(item.title).to(equal("Foo"))
                 expect(item.itemDescription).to(equal("Bar"))
